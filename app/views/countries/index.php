@@ -34,23 +34,9 @@ foreach ($data['users'] as $country){
     <th>" .  $country->capitalCity  . "</th>
     <th>" .  $country->continent  . "</th>
     <th>" .  $country->population  . "</th>";
-    
-    // echo "id " . $country->id; 
-    // echo "\n";
-    // echo "Land " . $country->name;
-    // echo "\n";
-    // echo "hoofdstad " . $country->capitalCity;
-    // echo "\n";
-    // echo "cotinent " . $country->continent;
-    // echo "\n";
-    // echo "aantalbewoners " . $country->population;
 }
 
-// var_dump($data);
-
 ?>
-
-   <!-- Elektronica tabel-->
    <div class="container">
   <div class="row">
     <div class="col">
